@@ -6,7 +6,7 @@
 #    By: gsimonas <gsimonas@student.42.rio>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/06/02 12:43:31 by gsimonas          #+#    #+#              #
-#    Updated: 2022/09/12 09:41:53 by gsimonas         ###   ########.fr        #
+#    Updated: 2022/09/12 14:48:01 by gsimonas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ CC		=	cc
 
 CFLAGS	=	-Wall -Wextra -Werror
 
-RM		=	rm -f
+RM		=	rm -rf
 
 .c.o:
 			$(CC) $(CFLAGS) -c $< -o $(<:.c=.o)
